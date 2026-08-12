@@ -400,7 +400,7 @@ export const BurgerScrollExperience: React.FC = () => {
               preload="auto"
               onLoadedMetadata={handleLoadedMetadata}
               onError={() => setHasError(true)}
-              className={`burger-video block w-full h-full pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)] ${fitMode === 'cover' ? 'object-cover' : 'object-contain'
+              className={`burger-video block w-full h-full object-center pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)] ${fitMode === 'cover' ? 'object-cover' : 'object-contain'
                 }`}
             />
           )}
