@@ -1,0 +1,6 @@
+{
+  "name": "ASA BURGERS",
+  "description": "Premium smashed-to-order burgers with interactive scroll stack, combo box experience, and online ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
