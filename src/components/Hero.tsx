@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
       id="hero"
       className="relative min-h-screen pt-28 pb-16 px-6 md:px-12 bg-[#0d0d0f] text-white overflow-hidden flex flex-col justify-between"
     >
-      {/* Background glow effects */}s
+      {/* Background glow effects */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-200 h-125 bg-orange-600/10 rounded-full blur-[160px] pointer-events-none" />
       <div className="absolute top-0 right-0 w-100 h-100 bg-orange-500/5 rounded-full blur-[120px] pointer-events-none" />
 
